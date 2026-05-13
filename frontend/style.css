@@ -1,0 +1,64 @@
+body{
+  font-family: Arial;
+  margin:0;
+  padding:0;
+  background:#f4f4f4;
+}
+
+header{
+  background:#111827;
+  color:white;
+  text-align:center;
+  padding:50px;
+}
+
+section{
+  padding:40px;
+}
+
+h2{
+  color:#111827;
+}
+
+.skills ul{
+  list-style:none;
+  padding:0;
+}
+
+.skills li{
+  background:#2563eb;
+  color:white;
+  display:inline-block;
+  padding:10px 20px;
+  margin:5px;
+  border-radius:5px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  margin:10px 0;
+  border-radius:10px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+}
+
+input,textarea{
+  margin:10px 0;
+  padding:12px;
+}
+
+button{
+  background:#2563eb;
+  color:white;
+  padding:12px;
+  border:none;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1d4ed8;
+}
